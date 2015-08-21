@@ -187,6 +187,7 @@ def create_coeff_matrix(features_list, time_intervals, dataframe):
     result_matrix_columns_list.insert(0,'const')
     result_matrix = pandas.DataFrame(columns=result_matrix_columns_list)    
     for index in range(len(time_intervals)):
+        print(index)
         sub_df = select_by_weeksday_time(dataframe, \
                    time_intervals[index][0], time_intervals[index][1],\
                    time_intervals[index][2])
