@@ -15,4 +15,4 @@ This is project 2 assignment in Data Analyst Nanodegree from udacity.
 
 *linear_models.py, nonparametric_model.py, observations.py and summary.py* are programme files used through the answer to the last question.
 
-To run the ipython file. Please use the [original data file](https://www.dropbox.com/s/meyki2wl9xfa7yk/turnstile_data_master_with_weather.csv). And put the data file at the same location where the folder of this git repo is place.
+To run the ipython file. Please use the [original data file](https://www.dropbox.com/s/meyki2wl9xfa7yk/turnstile_data_master_with_weather.csv). And put the data file at the same location where the folder of this git repo is placed.
