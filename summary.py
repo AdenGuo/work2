@@ -40,7 +40,7 @@ def run_for(n):
     k = 10
     for i in range(n):
         index_list.append('Split' + ' ' + str(i + 1))
-        print "Testing " + str(i) + " begin!"
+        print "Testing " + str(i + 1) + " begin!"
         print "Data spliting..."            
         dataframe = pandas.read_csv('new_weather_turnstile.csv')
         train_new_weather_turnstile, test_new_weather_turnstile = \
@@ -72,10 +72,12 @@ def run_for(n):
                           (8,12,linear_models.weekend), (12,16,linear_models.weekend), \
                           (16,20,linear_models.weekend), (20,23.999,linear_models.weekend)]
         features_list = linear_models.read_features_from_file('features_list')
+        features_list.remove('is_weekend')
         dataframe = pandas.read_csv('train_new_weather_turnstile.csv')
         coeff_matrix = linear_models.create_coeff_matrix(features_list, time_intervals, dataframe)
         coeff_matrix.to_csv('coeff_matrix.csv')        
         features_list = linear_models.read_features_from_file('features_list')
+        features_list.remove('is_weekend')
         coeff_matrix = pandas.read_csv('coeff_matrix.csv')
         test_dataframe = pandas.read_csv('test_new_weather_turnstile.csv')
         predictions = linear_models.make_predictions_dataframe(test_dataframe, time_intervals,\
