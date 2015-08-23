@@ -110,4 +110,5 @@ def run_for(n):
                                'R2 nonparametric':pandas.Series(R2_nonparametric, index_list)}) 
     return result
         
-        
+def load_result():
+    return pandas.read_csv("ten_splits_result.csv", index_col = 0)            
