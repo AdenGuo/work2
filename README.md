@@ -13,7 +13,7 @@ This is project 2 assignment in Data Analyst Nanodegree from udacity.
 
 *Answer To 5.2.pdf* is PDF file and pictures of answer to the last question.
 
-*linear_models.py, nonparametric_model.py, observations.py and summary.py* are programme files used through the answer to the last question.
+*linear_models.py, nonparametric_model.py, observations.py and summary.py* are program files used through the answer to the last question.
 
 *ten_splits_result.csv* is the result file of ten split.
 
