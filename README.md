@@ -9,7 +9,7 @@ This is project 2 assignment in Data Analyst Nanodegree from udacity.
 
 *Answer To 5.2.ipynb* is ipython notebook file of answer to last question.
 
-[Answer To 5.2.ipynb]() is html file of answer to last question.
+[Answer To 5.2.html]() is html file of answer to last question.
 
 *Answer To 5.2.zip* is PDF file and pictures of answer to the last question.
 
